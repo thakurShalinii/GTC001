@@ -28,9 +28,7 @@ public class ById {
      
        driver.findElement(By.linkText("Sauce Labs Bolt T-Shirt")).click();
        
-       //partial link text
-       
-       
+       //partial link text     
       List <WebElement> elementList= driver.findElements(By.partialLinkText("Sauce"));
       System.out.println("Element size:" + elementList.size());   
 	
